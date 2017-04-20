@@ -1,0 +1,603 @@
+{
+  "name": "Recomendador Musical",
+  "created": "2017-04-20T13:27:59.444Z",
+  "intents": [
+    {
+      "intent": "anno_publicacion",
+      "created": "2017-04-20T14:15:25.599Z",
+      "updated": "2017-04-20T14:15:25.599Z",
+      "examples": [
+        {
+          "text": "Ano de publicacion",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Dame una recomendacion segun el ano de publicacion",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Me interesa buscar por ano de publicacion",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Quiero buscar segun ano de publicacion",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Quiero una recomendacion segun ano",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "genero",
+      "created": "2017-04-20T14:15:02.351Z",
+      "updated": "2017-04-20T15:23:24.114Z",
+      "examples": [
+        {
+          "text": "Cuales categorias me puedes mostrar",
+          "created": "2017-04-20T14:19:42.657Z",
+          "updated": "2017-04-20T14:21:17.712Z"
+        },
+        {
+          "text": "Cuales generos tienes",
+          "created": "2017-04-20T14:16:08.215Z",
+          "updated": "2017-04-20T14:20:32.426Z"
+        },
+        {
+          "text": "Genero",
+          "created": "2017-04-20T15:23:24.114Z",
+          "updated": "2017-04-20T15:23:24.114Z"
+        },
+        {
+          "text": "Que clase de bandas me puedes recomendar",
+          "created": "2017-04-20T14:16:23.817Z",
+          "updated": "2017-04-20T14:18:51.626Z"
+        },
+        {
+          "text": "Que genero musical puedo escuchar",
+          "created": "2017-04-20T14:20:27.321Z",
+          "updated": "2017-04-20T14:20:45.141Z"
+        },
+        {
+          "text": "Que tipo de musica tienes",
+          "created": "2017-04-20T14:18:37.622Z",
+          "updated": "2017-04-20T14:19:12.168Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "origen",
+      "created": "2017-04-20T14:15:14.694Z",
+      "updated": "2017-04-20T14:15:14.694Z",
+      "examples": [
+        {
+          "text": "Origen",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Pais de origen",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Quiero recomendaciones segun origen de la banda",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Quiero recomendaciones segun pais de origen",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Recomiendame segun pais",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "popularidad",
+      "created": "2017-04-20T14:15:31.385Z",
+      "updated": "2017-04-20T14:15:31.385Z",
+      "examples": [
+        {
+          "text": "Hazme una recomendacion por la popularidad de la banda",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Popularidad",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Quiero buscar por nivel de popularidad",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Quiero ver bandas segun popularidad",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        },
+        {
+          "text": "Recomiendame por popularidad",
+          "created": "2017-04-20T14:31:58.026Z",
+          "updated": "2017-04-20T14:31:58.026Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "que",
+      "created": "2017-04-20T13:36:03.641Z",
+      "updated": "2017-04-20T14:13:14.886Z",
+      "examples": [
+        {
+          "text": "Ayudame",
+          "created": "2017-04-20T13:36:03.641Z",
+          "updated": "2017-04-20T14:13:14.886Z"
+        },
+        {
+          "text": "¿Cómo me puedes ayudar?",
+          "created": "2017-04-20T13:58:22.048Z",
+          "updated": "2017-04-20T13:58:22.048Z"
+        },
+        {
+          "text": "¿Qué música recomiendas?",
+          "created": "2017-04-20T13:36:03.641Z",
+          "updated": "2017-04-20T13:36:03.641Z"
+        },
+        {
+          "text": "¿Qué puedes hacer?",
+          "created": "2017-04-20T13:36:03.641Z",
+          "updated": "2017-04-20T13:36:03.641Z"
+        },
+        {
+          "text": "¿Qué recomiendas?",
+          "created": "2017-04-20T13:36:03.641Z",
+          "updated": "2017-04-20T13:36:03.641Z"
+        },
+        {
+          "text": "¿Qué tipo de música me puedes recomendar?",
+          "created": "2017-04-20T13:36:03.641Z",
+          "updated": "2017-04-20T13:36:03.641Z"
+        },
+        {
+          "text": "Quiero escuchar musica",
+          "created": "2017-04-20T13:36:03.641Z",
+          "updated": "2017-04-20T14:09:20.217Z"
+        }
+      ],
+      "description": null
+    }
+  ],
+  "updated": "2017-04-20T17:29:00.034Z",
+  "entities": [
+    {
+      "entity": "genero",
+      "values": [
+        {
+          "value": "blues",
+          "created": "2017-04-20T14:49:16.783Z",
+          "updated": "2017-04-20T14:49:16.783Z",
+          "metadata": null,
+          "synonyms": [
+            "blues rock"
+          ]
+        },
+        {
+          "value": "clasica",
+          "created": "2017-04-20T14:49:16.783Z",
+          "updated": "2017-04-20T14:49:16.783Z",
+          "metadata": null,
+          "synonyms": [
+            "orquestada",
+            "orquestal",
+            "sinfonica"
+          ]
+        },
+        {
+          "value": "heavy metal",
+          "created": "2017-04-20T14:49:16.783Z",
+          "updated": "2017-04-20T14:49:16.783Z",
+          "metadata": null,
+          "synonyms": [
+            "power metal",
+            "speed metal"
+          ]
+        },
+        {
+          "value": "progresivo",
+          "created": "2017-04-20T14:49:16.783Z",
+          "updated": "2017-04-20T14:49:16.783Z",
+          "metadata": null,
+          "synonyms": [
+            "rock progresivo"
+          ]
+        },
+        {
+          "value": "rhythm and blues",
+          "created": "2017-04-20T14:49:16.783Z",
+          "updated": "2017-04-20T14:49:16.783Z",
+          "metadata": null,
+          "synonyms": [
+            "r&b"
+          ]
+        },
+        {
+          "value": "rock",
+          "created": "2017-04-20T14:49:16.783Z",
+          "updated": "2017-04-20T14:49:16.783Z",
+          "metadata": null,
+          "synonyms": [
+            "garage rock",
+            "hard rock"
+          ]
+        },
+        {
+          "value": "stoner",
+          "created": "2017-04-20T14:49:16.783Z",
+          "updated": "2017-04-20T14:49:16.783Z",
+          "metadata": null,
+          "synonyms": [
+            "stoner rock"
+          ]
+        }
+      ],
+      "created": "2017-04-20T14:49:16.752Z",
+      "updated": "2017-04-20T14:49:16.752Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "origen",
+      "values": [
+        {
+          "value": "alemania",
+          "created": "2017-04-20T14:49:16.786Z",
+          "updated": "2017-04-20T14:49:16.786Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "brasil",
+          "created": "2017-04-20T14:49:16.786Z",
+          "updated": "2017-04-20T14:49:16.786Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "chile",
+          "created": "2017-04-20T14:49:16.786Z",
+          "updated": "2017-04-20T14:49:16.786Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "estados unidos",
+          "created": "2017-04-20T14:49:16.786Z",
+          "updated": "2017-04-20T14:49:16.786Z",
+          "metadata": null,
+          "synonyms": [
+            "ee. uu.",
+            "ee.uu.",
+            "usa"
+          ]
+        },
+        {
+          "value": "francia",
+          "created": "2017-04-20T14:49:16.786Z",
+          "updated": "2017-04-20T14:49:16.786Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "inglaterra",
+          "created": "2017-04-20T14:49:16.786Z",
+          "updated": "2017-04-20T14:49:16.786Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "mexico",
+          "created": "2017-04-20T14:49:16.786Z",
+          "updated": "2017-04-20T14:49:16.786Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "noruega",
+          "created": "2017-04-20T14:49:16.786Z",
+          "updated": "2017-04-20T14:49:16.786Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "suecia",
+          "created": "2017-04-20T14:49:16.786Z",
+          "updated": "2017-04-20T14:49:16.786Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2017-04-20T14:49:16.752Z",
+      "updated": "2017-04-20T14:49:16.752Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "popularidad",
+      "values": [
+        {
+          "value": "alta",
+          "created": "2017-04-20T14:49:16.780Z",
+          "updated": "2017-04-20T14:49:16.780Z",
+          "metadata": null,
+          "synonyms": [
+            "top"
+          ]
+        },
+        {
+          "value": "baja",
+          "created": "2017-04-20T14:49:16.780Z",
+          "updated": "2017-04-20T14:49:16.780Z",
+          "metadata": null,
+          "synonyms": [
+            "desconocido",
+            "underground"
+          ]
+        },
+        {
+          "value": "media",
+          "created": "2017-04-20T14:49:16.780Z",
+          "updated": "2017-04-20T14:49:16.780Z",
+          "metadata": null,
+          "synonyms": [
+            "regular"
+          ]
+        }
+      ],
+      "created": "2017-04-20T14:49:16.752Z",
+      "updated": "2017-04-20T14:49:16.752Z",
+      "metadata": null,
+      "description": null
+    }
+  ],
+  "language": "es",
+  "metadata": null,
+  "description": "",
+  "dialog_nodes": [
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Bienvenido al recomendador musical. ¿Cómo puedo ayudarte?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-04-20T13:28:51.164Z",
+      "updated": "2017-04-20T14:59:47.485Z",
+      "metadata": null,
+      "conditions": "conversation_start",
+      "description": null,
+      "dialog_node": "Saludo",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "¿Cuán popular quieres que sea la recomendación?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Opciones",
+      "context": null,
+      "created": "2017-04-20T14:59:05.354Z",
+      "updated": "2017-04-20T15:00:49.573Z",
+      "metadata": null,
+      "conditions": "#popularidad",
+      "description": null,
+      "dialog_node": "Consulta Popularidad",
+      "previous_sibling": "Consulta Origen"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "¿De qué país de origen te recomiendo?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Opciones",
+      "context": null,
+      "created": "2017-04-20T14:58:18.305Z",
+      "updated": "2017-04-20T15:00:38.577Z",
+      "metadata": null,
+      "conditions": "#origen",
+      "description": null,
+      "dialog_node": "Consulta Origen",
+      "previous_sibling": "Consulta Anno Publicacion"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Lo siento, no entiendo tu pregunta. ¿Puedes volver a consultar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-04-20T17:23:25.912Z",
+      "updated": "2017-04-20T17:23:41.780Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_19_1492709005715",
+      "previous_sibling": "Salto a Popularidad"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Por favor, indica el año de publicación que te interesa"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Opciones",
+      "context": null,
+      "created": "2017-04-20T14:57:36.772Z",
+      "updated": "2017-04-20T15:00:23.597Z",
+      "metadata": null,
+      "conditions": "#anno_publicacion",
+      "description": null,
+      "dialog_node": "Consulta Anno Publicacion",
+      "previous_sibling": "Consulta Genero"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Por favor, indica el género que quieres"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Opciones",
+      "context": null,
+      "created": "2017-04-20T14:55:10.716Z",
+      "updated": "2017-04-20T15:00:12.268Z",
+      "metadata": null,
+      "conditions": "#genero",
+      "description": null,
+      "dialog_node": "Consulta Genero",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Puedo ofrecerte música según genero, país de origen, año de publicación y popularidad"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-04-20T13:36:30.550Z",
+      "updated": "2017-04-20T15:22:33.131Z",
+      "metadata": null,
+      "conditions": "#que",
+      "description": null,
+      "dialog_node": "Opciones",
+      "previous_sibling": "Saludo"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Consulta Anno Publicacion"
+      },
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-04-20T15:01:03.487Z",
+      "updated": "2017-04-20T15:01:24.168Z",
+      "metadata": null,
+      "conditions": "#anno_publicacion",
+      "description": null,
+      "dialog_node": "Salto a Anno Publicacion",
+      "previous_sibling": "Salto a Genero"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Consulta Genero"
+      },
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-04-20T14:56:23.501Z",
+      "updated": "2017-04-20T15:33:25.324Z",
+      "metadata": null,
+      "conditions": "#genero",
+      "description": null,
+      "dialog_node": "Salto a Genero",
+      "previous_sibling": "Opciones"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Consulta Origen"
+      },
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-04-20T15:01:31.687Z",
+      "updated": "2017-04-20T17:29:00.034Z",
+      "metadata": null,
+      "conditions": "#origen",
+      "description": null,
+      "dialog_node": "Salto a Origen",
+      "previous_sibling": "Salto a Anno Publicacion"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Consulta Popularidad"
+      },
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-04-20T15:02:00.314Z",
+      "updated": "2017-04-20T15:22:44.996Z",
+      "metadata": null,
+      "conditions": "#popularidad",
+      "description": null,
+      "dialog_node": "Salto a Popularidad",
+      "previous_sibling": "Salto a Origen"
+    }
+  ],
+  "workspace_id": "4ed22699-247c-43d2-8f87-6369ae10e5f2",
+  "counterexamples": []
+}
